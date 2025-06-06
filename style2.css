@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+main img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lado-E{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding-left: 300px;
+    padding-top: 50px;
+    
+}
+
+.lado-E img{
+    width: 180px;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.div-meio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.div-meio button{
+    height: 50px;
+    width: 320px;
+    color: #20C982;
+    background-color: white;
+    border: 1px solid #20C982;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lado-E > span {
+    margin-top: 100px;
+    color: #4E4E4E;
+}
+
+.text{
+    color: #939393;
+}
+
+.valorParcelas{
+    font-size: 48px;
+    color: #4E4E4E;
+    font-weight: bolder;
+}
+
+.valorFinal{
+    font-size: 48px;
+    color: #4E4E4E;
+    font-weight: bolder;
+}
+
+.financiamento{
+    color: #939393;
+}
+
+#ellipseLogo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 860px;
+    top: 300px;
+}

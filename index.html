@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="lado-E">
+            <div id="logo">
+                <img src="assets/logoTitle.png" alt="">
+            </div>
+
+            <div id="text">
+                <h1>Simule o seu financiamento.</h1>
+                <span>Escolha as melhores condições para o financiamento do seu veículo.</span>
+                <img src="assets/car.png" alt="">
+        </section>
+
+        <section class="lado-D">
+            <img src="assets/emojis.png" alt="">
+            <h1>Preencha os campos e simule
+                o seu financiamento.</h1>
+
+            <form id="form" action="">
+                <label for="">Valor</label>
+                <input id="Valor"  type="text">
+
+                <div class="select-container">
+                    <select id="banco" name="banco">
+                        <option selected disabled>Selecione um banco</option>
+                        <option value="caixa">Caixa</option>
+                        <option value="santander">Santander</option>
+                        <option value="itaú">Itaú</option>
+                        <option value="nubank">Nubank</option>
+                        <option value="inter">Inter</option>
+                    </select>
+                </div>
+
+                <img id="arrow" src="assets/arrow-down-s-line.svg" alt="">
+
+                <div class="select-container">
+                    <select id="meses" name="meses">
+                        <option selected disabled>Em quantos meses?</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="36">36</option>
+                        <option value="48">48</option>
+                        <option value="60">60</option>
+                        <option value="72">72</option>
+                    </select>
+                </div>
+
+                <img id="arrow2" src="assets/arrow-down-s-line.svg" alt="">
+
+                <button type="submit">Simular financiamento</button>
+            </form>
+
+            <img id="ellipseArrow" src="assets/ellipseArrow.png" alt="">
+        </section>
+    </main>
+</body>
+
+    <script src="scrcpt.js"></script>
+
+</html>
