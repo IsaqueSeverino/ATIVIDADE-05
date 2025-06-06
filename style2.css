@@ -8,14 +8,8 @@ main{
     display: flex;
     flex-direction: row;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     font-family: "Inter", sans-serif;
-}
-
-main img{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .lado-E{
@@ -61,7 +55,7 @@ main img{
     color: #939393;
 }
 
-.valorParcelas{
+.valorParcela{
     font-size: 48px;
     color: #4E4E4E;
     font-weight: bolder;
@@ -83,4 +77,63 @@ main img{
     height: 200px;
     left: 860px;
     top: 300px;
+}
+
+#banner{
+    width: 50%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .lado-E {
+    width: 100%;
+    height: auto;
+    margin-top: 280px;
+    padding: 50px;
+    align-items: center;
+  }
+
+  .lado-E img {
+    display: none;
+  }
+
+  .div-meio {
+    align-items: center;
+  }
+
+  .div-meio button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .lado-E > span {
+    display: none;
+  }
+
+  .valorParcela,
+  .valorFinal {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .text,
+  .financiamento {
+    text-align: center;
+  }
+
+  #ellipseLogo {
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 70px;
+  }
+
+  #banner {
+    display: none;
+  }
 }
