@@ -84,6 +84,10 @@ main{
     height: 100%;
 }
 
+#ellipseLogo2{
+    display: none;
+}
+
 @media (max-width: 768px) {
   main {
     flex-direction: column;
@@ -93,13 +97,16 @@ main{
   .lado-E {
     width: 100%;
     height: auto;
-    margin-top: 280px;
     padding: 50px;
     align-items: center;
   }
 
   .lado-E img {
     display: none;
+  }
+
+  #ellipseLogo2{
+    display: block;
   }
 
   .div-meio {
@@ -124,13 +131,6 @@ main{
   .text,
   .financiamento {
     text-align: center;
-  }
-
-  #ellipseLogo {
-    display: flex;
-    position: absolute;
-    left: 250px;
-    top: 70px;
   }
 
   #banner {

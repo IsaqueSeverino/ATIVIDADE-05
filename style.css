@@ -19,7 +19,7 @@ main {
     width: 50%;
     height: 100%;
     gap: 100px;
-    padding-left:150px;
+    padding-left: 150px;
     padding-top: 80px;
 
 }
@@ -60,12 +60,12 @@ main {
     padding-left: 150px;
 }
 
-.lado-D>img {
+.lado-D>form img {
     width: 100px;
     height: auto;
 }
 
-.lado-D>h1 {
+.lado-D>form h1 {
     font-size: 25px;
     color: #939393;
 }
@@ -95,7 +95,7 @@ main {
     background-color: white;
     width: 50%;
     height: 50px;
-    
+
 }
 
 #arrow {
@@ -135,17 +135,17 @@ select {
     color: #999;
 }
 
-#form button{
+#form button {
     height: 50px;
     width: 50%;
     color: #FFFFFF;
     background-color: #20C982;
     border-radius: 5px;
-    border: 1px solid transparent;     
+    border: 1px solid transparent;
     cursor: pointer;
 }
 
-#ellipseArrow{
+#ellipseArrow {
     position: absolute;
     width: 170px;
     height: 170px;
@@ -154,68 +154,73 @@ select {
 }
 
 @media (max-width: 768px) {
-  main {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-  }
+    main {
+        flex-direction: column;
+        height: auto;
+        padding: 50px;
+    }
 
-  .lado-E {
-    width: 100%;
-    padding-top: 40px;
-    padding-left: 20px;
-    gap: 40px;
-    align-items: center;
-  }
+    .lado-E {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 20px;
+        gap: 40px;
+        align-items: center;
+    }
 
-  .lado-E #text > img {
-    display: none;
-  }
+    .lado-E #text>img {
+        display: none;
+    }
 
-  .lado-D {
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 40px;
-    gap: 40px;
-  }
+    .lado-D {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 40px;
+        margin-top: 30px;
+        gap: 40px;
+        align-items: center;
+    }
 
-  .lado-D img{
-    display: none;
-  }
+    .lado-D img {
+        display: none;
+    }
 
-  .lado-D h1{
-    font-size: 16px;
-    margin-left: 130px;
-  }
+    .lado-D form h1 {
+        font-size: 23px;
+        text-align: center;
+    }
 
-  #text h1 {
-    font-size: 32px;
-    margin-left: 40px;
-  }
+    #text{
+        text-align: center;
+    }
 
-  #text span {
-    font-size: 16px;
-  }
+    #text h1 {
+        font-size: 32px;
 
-  #form input,
-  .select-container,
-  #form button {
-    width: 100%;
-  }
+    }
 
-  #form input,
-  .select-container {
-    height: 40px;
-  }
+    #text span {
+        font-size: 16px;
+    }
 
-  #form button {
-    height: 45px;
-  }
+    #form input,
+    .select-container,
+    #form button {
+        width: 100%;
+    }
 
-  /* Ajusta posicionamento dos elementos com position absolute */
-  #arrow,
-  #arrow2,
-  #ellipseArrow {
-    display: none;
-  }
+    #form input,
+    .select-container {
+        height: 40px;
+    }
+
+    #form button {
+        height: 45px;
+    }
+
+    #arrow,
+    #arrow2,
+    #ellipseArrow {
+        display: none;
+    }
 }
